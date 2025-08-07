@@ -20,3 +20,15 @@ if(tamanhoSenha < 20){
 }
     numeroSenha.textContent = tamanhoSenha;   
 }
+
+const campoSenha = document.querySelector(´acampo-senha`);
+
+const letraMaiuscula = ´ABCDEFGHIJKLMNOPQRSTUVWXYZ`;
+geraSenha();
+
+function geraSenha();{
+     let senha = ´`; 
+     for (let i = 0 ; i < tamanhoSenha; i++){
+      let numeroAleatorio = math.random()  letraMaiuscula.length;
+     }
+}
